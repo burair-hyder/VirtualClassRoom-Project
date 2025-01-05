@@ -1,0 +1,118 @@
+ 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1A1A1D;
+}
+
+ 
+header {
+  background-color: black;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+ 
+.course-list {
+  padding: 20px;
+  background-color: #16423C;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.course-list h2 {
+  color: white;
+}
+
+.course-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.course-list li {
+  margin: 10px 0;
+}
+
+.course-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.course-list a:hover {
+  text-decoration: underline;
+}
+
+ 
+.course-materials {
+  background-color: #16423C;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.course-materials h2 {
+  color: white;
+}
+
+.materials h3 {
+  color: #9BEC00;
+  margin-top: 20px;
+}
+
+.materials ul {
+  list-style: none;
+  padding: 0;
+}
+
+.materials li {
+  margin-bottom: 10px;
+}
+
+.materials a {
+  color: white;
+  text-decoration: none;
+}
+
+.materials a:hover {
+  text-decoration: underline;
+}
+
+ 
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
